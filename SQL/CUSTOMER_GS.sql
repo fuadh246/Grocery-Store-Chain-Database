@@ -1,114 +1,115 @@
-CREATE TABLE CUSTOMER_GS (
+CREATE TABLE CUSTOMERS_GS (
     CustomerID INT NOT NULL,
     FirstName VARCHAR(50) NOT NULL,
     LastName VARCHAR(50) NOT NULL,
     PRIMARY KEY (CustomerID)
 );
-insert into CUSTOMER_GS (CustomerID, FirstName, LastName)
+
+insert into CUSTOMERS_GS (CustomerID, FirstName, LastName)
 values (1, 'Twila', 'O''Sherrin');
-insert into CUSTOMER_GS (CustomerID, FirstName, LastName)
+insert into CUSTOMERS_GS (CustomerID, FirstName, LastName)
 values (2, 'Natka', 'McGaughay');
-insert into CUSTOMER_GS (CustomerID, FirstName, LastName)
+insert into CUSTOMERS_GS (CustomerID, FirstName, LastName)
 values (3, 'Boot', 'Cino');
-insert into CUSTOMER_GS (CustomerID, FirstName, LastName)
+insert into CUSTOMERS_GS (CustomerID, FirstName, LastName)
 values (4, 'Sharline', 'Creagh');
-insert into CUSTOMER_GS (CustomerID, FirstName, LastName)
+insert into CUSTOMERS_GS (CustomerID, FirstName, LastName)
 values (5, 'Astrid', 'Mcall');
-insert into CUSTOMER_GS (CustomerID, FirstName, LastName)
+insert into CUSTOMERS_GS (CustomerID, FirstName, LastName)
 values (6, 'Gilberte', 'Nairn');
-insert into CUSTOMER_GS (CustomerID, FirstName, LastName)
+insert into CUSTOMERS_GS (CustomerID, FirstName, LastName)
 values (7, 'Kirk', 'Maffini');
-insert into CUSTOMER_GS (CustomerID, FirstName, LastName)
+insert into CUSTOMERS_GS (CustomerID, FirstName, LastName)
 values (8, 'Demetrius', 'Prigg');
-insert into CUSTOMER_GS (CustomerID, FirstName, LastName)
+insert into CUSTOMERS_GS (CustomerID, FirstName, LastName)
 values (9, 'Dulsea', 'Latta');
-insert into CUSTOMER_GS (CustomerID, FirstName, LastName)
+insert into CUSTOMERS_GS (CustomerID, FirstName, LastName)
 values (10, 'Penni', 'Harper');
-insert into CUSTOMER_GS (CustomerID, FirstName, LastName)
+insert into CUSTOMERS_GS (CustomerID, FirstName, LastName)
 values (11, 'Bellina', 'Koenen');
-insert into CUSTOMER_GS (CustomerID, FirstName, LastName)
+insert into CUSTOMERS_GS (CustomerID, FirstName, LastName)
 values (12, 'Catlee', 'Backman');
-insert into CUSTOMER_GS (CustomerID, FirstName, LastName)
+insert into CUSTOMERS_GS (CustomerID, FirstName, LastName)
 values (13, 'Terra', 'St Ledger');
-insert into CUSTOMER_GS (CustomerID, FirstName, LastName)
+insert into CUSTOMERS_GS (CustomerID, FirstName, LastName)
 values (14, 'Yoshiko', 'Briston');
-insert into CUSTOMER_GS (CustomerID, FirstName, LastName)
+insert into CUSTOMERS_GS (CustomerID, FirstName, LastName)
 values (15, 'Caresa', 'Gisbey');
-insert into CUSTOMER_GS (CustomerID, FirstName, LastName)
+insert into CUSTOMERS_GS (CustomerID, FirstName, LastName)
 values (16, 'Maurizio', 'Buffham');
-insert into CUSTOMER_GS (CustomerID, FirstName, LastName)
+insert into CUSTOMERS_GS (CustomerID, FirstName, LastName)
 values (17, 'Cos', 'Basire');
-insert into CUSTOMER_GS (CustomerID, FirstName, LastName)
+insert into CUSTOMERS_GS (CustomerID, FirstName, LastName)
 values (18, 'Irwin', 'Beaton');
-insert into CUSTOMER_GS (CustomerID, FirstName, LastName)
+insert into CUSTOMERS_GS (CustomerID, FirstName, LastName)
 values (19, 'Nelli', 'Morcomb');
-insert into CUSTOMER_GS (CustomerID, FirstName, LastName)
+insert into CUSTOMERS_GS (CustomerID, FirstName, LastName)
 values (20, 'Fallon', 'Gomby');
-insert into CUSTOMER_GS (CustomerID, FirstName, LastName)
+insert into CUSTOMERS_GS (CustomerID, FirstName, LastName)
 values (21, 'Nicol', 'Meryett');
-insert into CUSTOMER_GS (CustomerID, FirstName, LastName)
+insert into CUSTOMERS_GS (CustomerID, FirstName, LastName)
 values (22, 'Antonio', 'Leads');
-insert into CUSTOMER_GS (CustomerID, FirstName, LastName)
+insert into CUSTOMERS_GS (CustomerID, FirstName, LastName)
 values (23, 'Malvina', 'Blackleech');
-insert into CUSTOMER_GS (CustomerID, FirstName, LastName)
+insert into CUSTOMERS_GS (CustomerID, FirstName, LastName)
 values (24, 'Darb', 'Arden');
-insert into CUSTOMER_GS (CustomerID, FirstName, LastName)
+insert into CUSTOMERS_GS (CustomerID, FirstName, LastName)
 values (25, 'Inger', 'Hazle');
-insert into CUSTOMER_GS (CustomerID, FirstName, LastName)
+insert into CUSTOMERS_GS (CustomerID, FirstName, LastName)
 values (26, 'Hildegaard', 'Kayzer');
-insert into CUSTOMER_GS (CustomerID, FirstName, LastName)
+insert into CUSTOMERS_GS (CustomerID, FirstName, LastName)
 values (27, 'Augusta', 'Tungay');
-insert into CUSTOMER_GS (CustomerID, FirstName, LastName)
+insert into CUSTOMERS_GS (CustomerID, FirstName, LastName)
 values (28, 'Jephthah', 'Crimpe');
-insert into CUSTOMER_GS (CustomerID, FirstName, LastName)
+insert into CUSTOMERS_GS (CustomerID, FirstName, LastName)
 values (29, 'Johanna', 'Abramin');
-insert into CUSTOMER_GS (CustomerID, FirstName, LastName)
+insert into CUSTOMERS_GS (CustomerID, FirstName, LastName)
 values (30, 'Kaleb', 'Bothams');
-insert into CUSTOMER_GS (CustomerID, FirstName, LastName)
+insert into CUSTOMERS_GS (CustomerID, FirstName, LastName)
 values (31, 'Freda', 'Doddemeade');
-insert into CUSTOMER_GS (CustomerID, FirstName, LastName)
+insert into CUSTOMERS_GS (CustomerID, FirstName, LastName)
 values (32, 'Patricio', 'Billingsly');
-insert into CUSTOMER_GS (CustomerID, FirstName, LastName)
+insert into CUSTOMERS_GS (CustomerID, FirstName, LastName)
 values (33, 'Gayelord', 'Feyer');
-insert into CUSTOMER_GS (CustomerID, FirstName, LastName)
+insert into CUSTOMERS_GS (CustomerID, FirstName, LastName)
 values (34, 'Thibaud', 'Readett');
-insert into CUSTOMER_GS (CustomerID, FirstName, LastName)
+insert into CUSTOMERS_GS (CustomerID, FirstName, LastName)
 values (35, 'Karissa', 'Janes');
-insert into CUSTOMER_GS (CustomerID, FirstName, LastName)
+insert into CUSTOMERS_GS (CustomerID, FirstName, LastName)
 values (36, 'Dunstan', 'Kurten');
-insert into CUSTOMER_GS (CustomerID, FirstName, LastName)
+insert into CUSTOMERS_GS (CustomerID, FirstName, LastName)
 values (37, 'Manda', 'Matfield');
-insert into CUSTOMER_GS (CustomerID, FirstName, LastName)
+insert into CUSTOMERS_GS (CustomerID, FirstName, LastName)
 values (38, 'Angeli', 'Davage');
-insert into CUSTOMER_GS (CustomerID, FirstName, LastName)
+insert into CUSTOMERS_GS (CustomerID, FirstName, LastName)
 values (39, 'Whitney', 'Bahike');
-insert into CUSTOMER_GS (CustomerID, FirstName, LastName)
+insert into CUSTOMERS_GS (CustomerID, FirstName, LastName)
 values (40, 'Lurline', 'Erbe');
-insert into CUSTOMER_GS (CustomerID, FirstName, LastName)
+insert into CUSTOMERS_GS (CustomerID, FirstName, LastName)
 values (41, 'Jean', 'Roizin');
-insert into CUSTOMER_GS (CustomerID, FirstName, LastName)
+insert into CUSTOMERS_GS (CustomerID, FirstName, LastName)
 values (42, 'Tobias', 'Reede');
-insert into CUSTOMER_GS (CustomerID, FirstName, LastName)
+insert into CUSTOMERS_GS (CustomerID, FirstName, LastName)
 values (43, 'Theresina', 'Onn');
-insert into CUSTOMER_GS (CustomerID, FirstName, LastName)
+insert into CUSTOMERS_GS (CustomerID, FirstName, LastName)
 values (44, 'Flo', 'Deshorts');
-insert into CUSTOMER_GS (CustomerID, FirstName, LastName)
+insert into CUSTOMERS_GS (CustomerID, FirstName, LastName)
 values (45, 'Keelia', 'Mishow');
-insert into CUSTOMER_GS (CustomerID, FirstName, LastName)
+insert into CUSTOMERS_GS (CustomerID, FirstName, LastName)
 values (46, 'Myrah', 'Noteyoung');
-insert into CUSTOMER_GS (CustomerID, FirstName, LastName)
+insert into CUSTOMERS_GS (CustomerID, FirstName, LastName)
 values (47, 'Gavan', 'Gerretsen');
-insert into CUSTOMER_GS (CustomerID, FirstName, LastName)
+insert into CUSTOMERS_GS (CustomerID, FirstName, LastName)
 values (48, 'Jaye', 'Marten');
-insert into CUSTOMER_GS (CustomerID, FirstName, LastName)
+insert into CUSTOMERS_GS (CustomerID, FirstName, LastName)
 values (49, 'Almeta', 'Graith');
-insert into CUSTOMER_GS (CustomerID, FirstName, LastName)
+insert into CUSTOMERS_GS (CustomerID, FirstName, LastName)
 values (50, 'Demetre', 'Shimmin');
-insert into CUSTOMER_GS (CustomerID, FirstName, LastName)
+insert into CUSTOMERS_GS (CustomerID, FirstName, LastName)
 values (51, 'Judi', 'Georgeou');
-insert into CUSTOMER_GS (CustomerID, FirstName, LastName)
+insert into CUSTOMERS_GS (CustomerID, FirstName, LastName)
 values (52, 'Fernanda', 'Pales');
-insert into CUSTOMER_GS (CustomerID, FirstName, LastName)
+insert into CUSTOMERS_GS (CustomerID, FirstName, LastName)
 values (53, 'Doyle', 'Keay');
-insert into CUSTOMER_GS (CustomerID, FirstName, LastName)
+insert into CUSTOMERS_GS (CustomerID, FirstName, LastName)
 values (54, 'Cindy', 'Keay');
