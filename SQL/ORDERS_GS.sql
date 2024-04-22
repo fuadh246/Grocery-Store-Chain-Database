@@ -8,5 +8,88 @@ CREATE TABLE ORDERS_GS (
   PRIMARY KEY (OrderID),
   FOREIGN KEY (CustomerID) REFERENCES CUSTOMERS_GS(CustomerID),
   FOREIGN KEY (StoreID) REFERENCES STORES_GS(StoreID),
-  FOREIGN KEY (EmployeeID) REFERENCES EMPLOYEES_GS(CustomerID)
+  FOREIGN KEY (EmployeeID) REFERENCES EMPLOYEES_GS(EmployeeID)
 );
+
+insert into ORDERS_GS (OrderID, StartDate, TimeCompleted, CustomerID,StoreID,EmployeeID)
+values (1, TO_DATE('2024-04-20', 'YYYY-MM-DD'), NULL, 1,1,1);
+
+insert into ORDERS_GS (OrderID, StartDate, TimeCompleted, CustomerID,StoreID,EmployeeID)
+values (2, TO_DATE('2024-04-20', 'YYYY-MM-DD'), NULL, 2,1,1);
+
+insert into ORDERS_GS (OrderID, StartDate, TimeCompleted, CustomerID,StoreID,EmployeeID)
+values (
+  3, 
+  TO_DATE('2024-04-21', 'YYYY-MM-DD'), 
+  TO_DATE('15:30:00', 'HH24:MI:SS'), 
+  3,
+  2,
+  1
+);
+
+insert into ORDERS_GS (OrderID, StartDate, TimeCompleted, CustomerID,StoreID,EmployeeID)
+values (
+  4, 
+  TO_DATE('2024-04-21', 'YYYY-MM-DD'), 
+  TO_DATE('16:30:00', 'HH24:MI:SS'), 
+  4,
+  2,
+  1
+);
+
+insert into ORDERS_GS (OrderID, StartDate, TimeCompleted, CustomerID,StoreID,EmployeeID)
+values (
+  5, 
+  TO_DATE('2024-04-21', 'YYYY-MM-DD'), 
+  TO_DATE('16:30:00', 'HH24:MI:SS'), 
+  5,
+  3,
+  1
+);
+
+insert into ORDERS_GS (OrderID, StartDate, TimeCompleted, CustomerID,StoreID,EmployeeID)
+values (
+  6, 
+  TO_DATE('2024-04-21', 'YYYY-MM-DD'), 
+  TO_DATE('16:35:00', 'HH24:MI:SS'), 
+  6,
+  2,
+  1
+);
+insert into ORDERS_GS (OrderID, StartDate, TimeCompleted, CustomerID,StoreID,EmployeeID)
+values (
+  7, 
+  TO_DATE('2024-04-21', 'YYYY-MM-DD'), 
+  TO_DATE('16:35:00', 'HH24:MI:SS'), 
+  7,
+  3,
+  1
+);
+insert into ORDERS_GS (OrderID, StartDate, TimeCompleted, CustomerID,StoreID,EmployeeID)
+values (
+  8, 
+  TO_DATE('2024-04-21', 'YYYY-MM-DD'), 
+  TO_DATE('16:40:00', 'HH24:MI:SS'), 
+  8,
+  1,
+  2
+);
+insert into ORDERS_GS (OrderID, StartDate, TimeCompleted, CustomerID,StoreID,EmployeeID)
+values (
+  9, 
+  TO_DATE('2024-04-21', 'YYYY-MM-DD'), 
+  TO_DATE('17:30:00', 'HH24:MI:SS'), 
+  9,
+  3,
+  3
+);
+insert into ORDERS_GS (OrderID, StartDate, TimeCompleted, CustomerID,StoreID,EmployeeID)
+values (
+  10, 
+  TO_DATE('2024-04-21', 'YYYY-MM-DD'), 
+  TO_DATE('10:30:00', 'HH24:MI:SS'), 
+  10,
+  2,
+  3
+);
+drop table orders_gs;
