@@ -1,3 +1,6 @@
+drop table STORES_GS;
+
+
 CREATE TABLE STORES_GS (
   StoreID INT NOT NULL,
   Street VARCHAR(50) NOT NULL,
