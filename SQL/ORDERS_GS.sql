@@ -1,3 +1,5 @@
+drop table ORDERS_GS;
+
 CREATE TABLE ORDERS_GS (
   OrderID INT NOT NULL,
   StartDate DATE NOT NULL,
@@ -92,4 +94,3 @@ values (
   1,
   3
 );
--- drop table orders_gs;

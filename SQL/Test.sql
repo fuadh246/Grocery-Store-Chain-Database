@@ -634,39 +634,34 @@ insert into ORDERS_DETAILS_GS (ItemID, OrderID)
 values (5,5);
 
 insert into ORDERS_DETAILS_GS (ItemID, OrderID)
-values (1, 1);
-
-insert into ORDERS_DETAILS_GS (ItemID, OrderID)
-values (1,2);
-
-insert into ORDERS_DETAILS_GS (ItemID, OrderID)
-values (1,3);
-
-insert into ORDERS_DETAILS_GS (ItemID, OrderID)
-values (1,4);
-
-insert into ORDERS_DETAILS_GS (ItemID, OrderID)
-values (1,5);
-
-
-insert into ORDERS_DETAILS_GS (ItemID, OrderID)
-values (1, 1);
-
-insert into ORDERS_DETAILS_GS (ItemID, OrderID)
-values (1,2);
-
-insert into ORDERS_DETAILS_GS (ItemID, OrderID)
-values (1,3);
-
-insert into ORDERS_DETAILS_GS (ItemID, OrderID)
-values (1,4);
-
-insert into ORDERS_DETAILS_GS (ItemID, OrderID)
-values (1,5);
-
-
-insert into ORDERS_DETAILS_GS (ItemID, OrderID)
 values (1, 6);
+
+insert into ORDERS_DETAILS_GS (ItemID, OrderID)
+values (1,2);
+
+insert into ORDERS_DETAILS_GS (ItemID, OrderID)
+values (1,3);
+
+insert into ORDERS_DETAILS_GS (ItemID, OrderID)
+values (1,4);
+
+insert into ORDERS_DETAILS_GS (ItemID, OrderID)
+values (1,5);
+
+
+insert into ORDERS_DETAILS_GS (ItemID, OrderID)
+values (1,8);
+
+insert into ORDERS_DETAILS_GS (ItemID, OrderID)
+values (1,9);
+
+insert into ORDERS_DETAILS_GS (ItemID, OrderID)
+values (1,10);
+
+
+
+insert into ORDERS_DETAILS_GS (ItemID, OrderID)
+values (9, 6);
 
 insert into ORDERS_DETAILS_GS (ItemID, OrderID)
 values (5,6);
@@ -683,7 +678,7 @@ values (8,6);
 
 
 insert into ORDERS_DETAILS_GS (ItemID, OrderID)
-values (1, 7);
+values (10, 7);
 
 insert into ORDERS_DETAILS_GS (ItemID, OrderID)
 values (5,7);
@@ -701,7 +696,7 @@ values (8,7);
 
 
 insert into ORDERS_DETAILS_GS (ItemID, OrderID)
-values (1,8);
+values (9,8);
 
 insert into ORDERS_DETAILS_GS (ItemID, OrderID)
 values (5,8);
@@ -718,7 +713,7 @@ values (8,8);
 
 
 insert into ORDERS_DETAILS_GS (ItemID, OrderID)
-values (1,9);
+values (3,9);
 
 insert into ORDERS_DETAILS_GS (ItemID, OrderID)
 values (5,9);
@@ -734,7 +729,7 @@ values (8,9);
 
 
 insert into ORDERS_DETAILS_GS (ItemID, OrderID)
-values (1,10);
+values (9,10);
 
 insert into ORDERS_DETAILS_GS (ItemID, OrderID)
 values (5,10);
