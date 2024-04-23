@@ -6,7 +6,7 @@ CREATE TABLE SHOPPING_GS (
   FOREIGN KEY (StoreID) REFERENCES STORES_GS(StoreID)
 );
 insert into SHOPPING_GS (CustomerID, StoreID)
-values (1, 1);
+values (1,2);
 insert into SHOPPING_GS (CustomerID, StoreID)
 values (2, 1);
 insert into SHOPPING_GS (CustomerID, StoreID)
