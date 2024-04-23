@@ -4,7 +4,6 @@ CREATE TABLE CUSTOMERS_GS (
     LastName VARCHAR(50) NOT NULL,
     PRIMARY KEY (CustomerID)
 );
-
 insert into CUSTOMERS_GS (CustomerID, FirstName, LastName)
 values (1, 'Twila', 'O''Sherrin');
 insert into CUSTOMERS_GS (CustomerID, FirstName, LastName)
